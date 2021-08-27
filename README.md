@@ -1,1 +1,1 @@
-# Exercicios-resolvidos-em-C
+# Exercicios resolvidos em C.
