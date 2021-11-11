@@ -6,4 +6,4 @@
 
 * Abaixo segue o exemplo de saída do programa. Em   vermelho estão as respostas do usuário.
 
-![Alt](https://cdn.discordapp.com/attachments/812816331824168963/908492690080014356/risco_de_infarto.png)
+   ![Demonstração da saída do programa.](https://cdn.discordapp.com/attachments/812816331824168963/908492690080014356/risco_de_infarto.png)
