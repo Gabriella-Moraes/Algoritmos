@@ -1,7 +1,7 @@
 Algoritmo "votacao"
 
 // Aluno 1: Ana Caroline Ferreira Rodrigues
-// Aluno 2: Bruno BodÃƒÂª do Nascimento
+// Aluno 2: Bruno BodÃª do Nascimento
 // Aluno 3: Gabriella de Moraes
 // Aluno 4: Gustavo do Carmo Vito
 
@@ -22,16 +22,16 @@ Inicio
    validavereador<-falso
    N_eleitor <- 1
 
-   escreval("IdentificaÃ§Ã£o da SeÃ§Ã£o e Zona Eleitoral......:")
+   escreval("Identificação da Seção e Zona Eleitoral......:")
    leia(zona)
    escreval("Total dos Eleitores que podem votar..........:")
    leia(total_eleitores)
-   escreval("CÃ³digo de IdentificaÃ§Ã£o da Urna EletrÃ´nica...:")
+   escreval("Código de Identificação da Urna Eletrônica...:")
    leia(urna)
 
    repita
       escreval("")
-      escreval("OlÃ¡ eleitor, nÂº", N_eleitor)
+      escreval("Olá eleitor, nº", N_eleitor)
       escreval(" ")
       escreval("-------------------------------------------------")
       escreval("               Candidato a Prefeito              ")
@@ -113,16 +113,16 @@ Inicio
    ate (aux = total_eleitores)
 
 
-   escreval("VotaÃ§Ã£o encerrada")
+   escreval("Votação encerrada")
    escreval("")
-   escreval("Resultado da votaÃ§Ã£o:")
+   escreval("Resultado da votação:")
    escreval("")
-   escreval("IdentificaÃ§Ã£o da SeÃ§Ã£o e Zona Eleitoral......: ", zona)
+   escreval("Identificação da Seção e Zona Eleitoral......: ", zona)
    escreval("Total dos Eleitores que podem votar..........: ", total_eleitores)
    escreval("Total de eleitores que votaram...............: ", N_eleitor)
    falta <- total_eleitores - N_eleitor
    escreval("Total de eleitores que faltaram:.............: ", falta)
-   escreval("CÃ³digo de identificaÃ§Ã£o da urna eletrÃ´nica...: ", urna)
+   escreval("Código de identificação da urna eletrônica...: ", urna)
    escreval("Total de votos em branco e nulos, agrupados por cargo:")
    somap <- pb + pn + ocp
    escreval("Branco e nulo Prefeito: ", somap)
@@ -130,9 +130,9 @@ Inicio
    escreval("Branco e nulo em Vereador: ", somav)
 
    somaPDB <-  p1 + p2 + v1 + v2
-   escreval("NÃºmero de votos para o Partido PDB: " , somaPDB)
+   escreval("Número de votos para o Partido PDB: " , somaPDB)
    somaPSB <-  p3 + p4 + v3 + v4
-   escreval("NÃºmero de votos para o Partido PSB: " , somaPSB)
+   escreval("Número de votos para o Partido PSB: " , somaPSB)
 
    escreval(" ")
    escreval("-------------------------------------------------")
@@ -170,7 +170,7 @@ Inicio
             se((p4 > p1) e (p4 > p2) e (p4 > p3))entao
                escreval("Candidato 4 a prefeito ganhou!")
             senao
-               escreval("NÃ£o houve ganhadores!")
+               escreval("Não houve ganhadores!")
             fimse
          fimse
       fimse
@@ -188,7 +188,7 @@ Inicio
             se((v4 > v1) e (v4 > v2) e (v4 > v3))entao
                escreval("Candidato 4 a vereador ganhou!")
             senao
-               escreval("NÃ£o houve ganhadores!")
+               escreval("Não houve ganhadores!")
             fimse
          fimse
       fimse
